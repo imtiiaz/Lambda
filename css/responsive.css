@@ -1,0 +1,323 @@
+ /*======Medium Device=========*/
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+     #reservation_part .form {
+         padding-bottom: 60px;
+     }
+ }
+ /*=========Smmll Device==========*/
+ 
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     /*header part*/
+     header {
+         background: rgba(0, 0, 0, 0.8);
+     }
+     .container {
+         max-width: 767px;
+     }
+     .navbar-brand img {
+         height: 60px;
+         width: 100px;
+     }
+     button:focus {
+         outline: 0;
+     }
+     .navbar-toggler i {
+         color: #fff;
+         border: 2px solid #cc9900;
+         padding: 8px 14px;
+         border-radius: 20%;
+     }
+     header .navbar-nav .nav-item .nav-link {
+         font-size: 18px;
+         padding: 15px 0;
+     }
+     .menu_icon {
+         padding: 0px 0 18px 0px;
+     }
+     header .navbar-nav .nav-item .nav-link:after {
+         left: 50%;
+         transform: translateX(-50%);
+     }
+     header .navbar-nav .nav-item .nav-link:hover:after {
+         width: 20%;
+         top: 5px;
+     }
+     /*banner part*/
+     .banner_item {
+         padding: 180px 0 115px 0;
+     }
+     .banner_item h1 {
+         font-size: 70px;
+     }
+     .banner_shape img {
+         margin: 15px 0;
+     }
+     .banner_button a {
+         font-size: 16px;
+         padding: 16px 40px;
+         margin: 0 10px;
+     }
+     /*About Part*/
+     #about_part {
+         padding: 70px 0;
+     }
+     .just_food h2 {
+         font-size: 32px;
+     }
+     .text p {
+         padding-top: 20px;
+         padding-bottom: 30px;
+         text-align: center;
+     }
+     /*ingredients Part*/
+     #ingredients {
+         padding: 70px 0;
+     }
+     .content {
+         padding: 60px 0;
+         position: relative;
+         z-index: 1;
+     }
+     .content h2 {
+         font-size: 32px;
+     }
+     /*menu Part*/
+     #menu_part {
+         padding-top: 30px;
+         padding-bottom: 70px;
+     }
+     .shape img {
+         padding-top: 5px;
+     }
+     .menu {
+         padding-top: 40px;
+     }
+     .menu h3 {
+         font-size: 32px;
+     }
+     .menu_items {
+         padding-top: 15px;
+     }
+     .menu_items h3 {
+         font-size: 20px;
+     }
+     .text p {
+         font-size: 15px;
+         padding-top: 15px;
+         padding-bottom: 20px;
+     }
+     /*Reviews Part*/
+     #reviews_part {
+         padding: 70px 0;
+     }
+     .review_content {
+         padding: 50px 15px;
+     }
+     .review_content h3 {
+         font-size: 32px;
+     }
+     .review_content p {
+         font-size: 20px;
+         line-height: 32px;
+     }
+     /*Reservation Part*/
+     #reservation_part {
+         padding: 70px 0;
+     }
+     #reservation_part .just_food p {
+         padding-bottom: 20px;
+         padding-top: 15px;
+     }
+     #reservation_part .form {
+         padding-bottom: 20px;
+     }
+     form label {
+         font-size: 15px;
+     }
+     /*footer Part*/
+     #footer_part {
+         background: #191919;
+         padding: 70px 0;
+     }
+     #footer_part h3 {
+         font-size: 20px;
+     }
+     #footer_part img {
+         padding: 10px 0;
+     }
+     .opening {
+         padding-top: 40px;
+     }
+     .payment a {
+         padding-top: 10px;
+     }
+     .location {
+         padding-top: 40px;
+     }
+     .footer_icon a {
+         padding-top: 10px;
+     }
+ }
+ /*=========Extra Small Device==========*/
+ 
+ @media (max-width: 575.98px) {
+     /*header part*/
+     header {
+         background: rgba(0, 0, 0, 0.8);
+     }
+     .navbar-brand img {
+         height: 60px;
+         width: 100px;
+     }
+     button:focus {
+         outline: 0;
+     }
+     .navbar-toggler i {
+         color: #fff;
+         border: 2px solid #cc9900;
+         padding: 8px 14px;
+         border-radius: 20%;
+     }
+     header .navbar-nav .nav-item .nav-link {
+         font-size: 18px;
+         padding: 15px 0;
+     }
+     .menu_icon {
+         padding: 0px 0 18px 0px;
+     }
+     header .navbar-nav .nav-item .nav-link:after {
+         left: 50%;
+         transform: translateX(-50%);
+     }
+     header .navbar-nav .nav-item .nav-link:hover:after {
+         width: 20%;
+         top: 5px;
+     }
+     /*banner part*/
+     .banner_item {
+         padding: 150px 0 100px 0;
+     }
+     .banner_item h1 {
+         color: #fff;
+         font-size: 50px;
+         font-family: 'Yeseva One', cursive;
+     }
+     .banner_button a {
+         font-size: 15px;
+         padding: 15px 20px;
+         margin: 0 10px;
+     }
+     /*about part*/
+     #about_part {
+         padding: 50px 0;
+     }
+     .just_food h2 {
+         font-size: 32px;
+     }
+     .text p {
+         font-size: 15px;
+         padding-top: 20px;
+         padding-bottom: 25px;
+         text-align: center;
+     }
+     /*ingredients part*/
+     #ingredients {
+         padding: 50px 0;
+     }
+     .content {
+         padding: 30px 0;
+     }
+     .content h2 {
+         font-size: 32px;
+     }
+     .content .text p {
+         padding: 15px 30px;
+     }
+     .items {
+         padding: 5px 20px 0 20px;
+     }
+     .items img {
+         margin: 0;
+     }
+     /*menu part*/
+     #menu_part {
+         padding-top: 15px;
+         padding-bottom: 50px;
+     }
+     .shape img {
+         padding-top: 5px;
+     }
+     .menu {
+         padding-top: 35px;
+     }
+     .menu h3 {
+         font-size: 32px;
+     }
+     .menu_items {
+         padding-top: 12px;
+     }
+     .menu_items h3 {
+         font-size: 18px;
+     }
+     .menu_items p {
+         font-size: 15px;
+         padding-top: 10px;
+     }
+     /*review part*/
+     #reviews_part {
+         padding: 50px 0;
+     }
+     .review_content {
+         padding: 30px 40px;
+     }
+     .review_content h3 {
+         font-size: 32px;
+     }
+     .review_content p {
+         font-size: 20px;
+         line-height: 30px;
+     }
+     /*reservation part*/
+     #reservation_part {
+         padding: 50px 0;
+     }
+     #reservation_part .text p {
+         padding-bottom: 20px;
+     }
+     #reservation_part .form {
+         padding-bottom: 20px;
+     }
+     form label {
+         font-size: 15px;
+     }
+     /*footer part*/
+     #footer_part {
+         padding: 50px 0;
+     }
+     #footer_part img {
+         padding: 5px 0;
+     }
+     #footer_part h3 {
+         font-size: 18px;
+     }
+     #footer_part p {
+         font-size: 15px;
+     }
+     .about {
+         padding-bottom: 25px;
+     }
+     .about {
+         padding-bottom: 25px;
+     }
+     .payment a {
+         padding-top: 20px;
+         padding-bottom: 20px;
+     }
+     .location {
+         padding-bottom: 25px;
+     }
+     .footer_icon a {
+         padding-top: 20px;
+     }
+ }
